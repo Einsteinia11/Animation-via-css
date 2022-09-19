@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project</title>
+    <link rel="stylesheet" href="styli.css">
+</head>
+
+<body>
+    <center><h1 title="I'll show you different animations">My Anime!</h1></center>
+    <div class="maincontainer">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="innerbox">
+                    <div class="front">
+                        <span>Anime 1</span>
+                    </div>
+                    <div class="back"> 
+                        <p> This is our first animation.</p>
+                        <div class="links">
+                            <a href="#"><img src="" alt="anime1"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="innerbox">
+                    <div class="front">
+                        <span>Anime 2</span>
+                    </div>
+                    <div class="back"> 
+                        <p> This is our second animation.</p>
+                        <div class="links">
+                            <a href="#"><img src="" alt="anime2"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="innerbox">
+                    <div class="front">
+                        <span>Anime 3</span>
+                    </div>
+                    <div class="back"> 
+                        <p> This is our third animation.</p>
+                        <div class="links">
+                            <a href="priya.html" target="_blank"><img src="panda.png" alt="anime3"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
