@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation by me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+    <h1 class="animate-charcter">Welcome! to my animation.</h1>
+    <div class="ok"><img src="ganesh.png" alt="Lord Ganesha!"></div>
+    <p> <i>This is my first time i am creating a website with animation.</i> </p>
+    </div>
+</body>
+</html>
