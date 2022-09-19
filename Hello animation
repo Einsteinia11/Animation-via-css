@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset = "utf-8" >
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Animation via css</title>
+    <link rel="stylesheet" href="C:\Users\shreya\Documents\html\s.css">
+</head>
+<Body>
+    <link href="second.css" rel="stylesheet">    
+<div class="content flex "> <!-- main container flex , or positon relative  ,height koo iski badha doo -->
+    <div class="flex margin relative ">
+        <!-- position relative kar diya left se center kar diya  -->
+        <!-- textcontent koo flexbox mae dal doo , margin dae doo top bottom se , left right auto -->
+  <div class="content__container ">
+    <p class="content_container_text ">
+      Hello
+    </p>
+    
+    <ul class="content_container_list flex">
+      <li class="content_containerlist_item">world !</li>
+      <li class="content_containerlist_item">foke!</li>
+      <li class="content_containerlist_item">users !</li>
+      <li class="content_containerlist_item">everyone !</li>
+    </ul>
+  </div></div>
+
+<!---cat animation-->
+<div class="flex margin"><!-- flex box mae cat content koo dal doo , margin isse bhi dae doo -->
+<div class="cat" >
+    <div class="ear ear--left"></div>
+    <div class="ear ear--right"></div>
+    <div class="face">
+      <div class="eye eye--left">
+        <div class="eye-pupil"></div>
+      </div>
+      <div class="eye eye--right">
+        <div class="eye-pupil"></div>
+      </div>
+      <div class="muzzle"></div>
+    </div>
+  </div></div>
+</div>
+</Body>
+</html>
