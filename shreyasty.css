@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+:root {
+  --main-bg-color: #2874f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--main-bg-color);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 88px;
+  padding: 0 30px;
+}
+
+nav ul {
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0px 23px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: aquamarine;
+  font-weight: bolder;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  height: 28px;
+  width: 30vw;
+  border-radius: 4px;
+  margin: 0 27px 0px 92px;
+  padding: 0px 14px;
+}
+
+.search button {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 900;
+}
+
+.slider {
+  margin: 12px auto;
+  width: 80vw;
+  overflow: hidden;
+}
+
+body{
+  background-image: url('sky.jpg');
+}
+
+.card {
+  margin: 37px auto;
+  max-width: 91vw;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.card h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 10vw;
+  margin: 0 12px;
+}
+
+.container {
+  min-height: calc(100vh - 60px - 12vh);
+}
+
+footer {
+  height: 12vh;
+  background-color: var(--main-bg-color);
+  color: rgb(33, 131, 243);
+  font-family: "Josefin Sans", sans-serif;
+}
